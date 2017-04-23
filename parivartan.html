@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- title and meta -->
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<title>Project Parivartan</title>
+    
+	<link rel="shortcut icon" type="image/x-icon" href="img/en-icon.ico">
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 100,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+				//document.getElementById("navbar-logo").style.display="none";
+				//document.getElementById("logo").style.display="block";
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+	
+</script>
+
+</head>
+
+
+
+<body onload="setTimeout('nextPic()',2000)">
+
+<header>
+    <div class="container clearfix">
+<!--<img id="navbar-logo"style="dl"src = "img/logo.png" height="150px" width="200px"></img>-->
+		
+		<h1  id="logo">
+            Enactus
+			<pre style="font-size:15px">
+<br>Mukesh Patel School of Technology 
+Management and Engineering</pre>
+        </h1>
+		
+        <nav>
+            <a href="index.php">Home </a>
+            <a href="index.php#about-us" >About Us</a>
+            <a href="index.php#our-projects">Projects </a>
+			<a href="products.php">Store</a>	
+			<a href="blog/">Blog</a>			
+			<!--<a href="#gallery">Gallery</a> -->
+			<a href="index.php#partners">Partners</a>
+			<a href="index.php#footer">Contact us </a>
+        </nav>
+    </div>
+</header><!-- /header -->
+
+<div class="content-main">
+<img style="z-index:-1;position:fixed;top:50px;" src="img/pari-banner1.jpg" width="100%"></img>
+
+<div class="section-inside" style="margin-top:150px;height:auto;background-color:#fff;">
+<h1>Project Parivartan</h1>
+<p style="margin-top:25px;font-size:20px;">Parivartan is a green enterprise focusing on providing a supplementary income and healthcare to trash pickers and urban slum dwellers in the economically weaker sections of the society through eco-friendly crafted products like mosquito repellent incense sticks, sawdust pencils, sawdust pens, bowties and bows in variants of rubber bands, hair bands and clips. The main objectives of Parivartan are to train the beneficiaries in essential real world skills, to encourage the children of the beneficiaries to stay in school and continue their education and to reduce the carbon footprint and conservation of the biosphere. Currently we are working with the communities residing in the slums at Vile Parle, Juhu, Santacruz, Chembur and in the Deonar Dumping grounds.</p>
+<br>
+<img src="img/Pari-Team.jpg" width="100%">
+</div>
+
+<div class="section-inside" style="padding-bottom:50px;  height:700px;background-color:rgba(255,255,255,0);">
+<div style="background-color:#f8f8f8;padding:20px;"><h1>Current Scenario</h1>
+<p style="margin-top:25px;font-size:20px;">The scores of trash pickers we see on the streets of the city we call home, labouring from dawn till dusk? Those frail old ladies sifting through trash heaps lugging their finds in large blue bags from one dumpster to another on foot? The sewers clogged with micro thin plastic bags discarded carelessly by ignorant citizens? Every day, Mumbai generates 7,500 MT of garbage. It also spews out 21 lac tonnes of industrial waste, which is half the national total. While a small fraction of this gets recycled/is used in biogas plants, a large part of it finds its way to landfills, open grounds. And with dump yards nearing their saturation points and no possibilities of open spaces, the city is staring at an apocalyptic future. As one of the biggest dumping grounds in the city, Deonar takes more than 80% of the total waste. But its capacity is slowly getting exhausted. The Mulund dumping ground is already being over-used.</p>
+</div>
+<img src="img/deonar.jpg" height="303px;" width="25%" style="margin-top:50px;margin-left:22.5%;margin-right:5%"></img><img src="img/trashpickers.jpe" height="303px" width="25%" style="margin-top:50px;"></img>
+</div>
+
+
+<div class="section-inside">
+<h1>Checkout whats been going on</h1>
+<div style="float:left;width:30%; padding:10px;">
+<img  src="img/Pari-products-icon.jpg" height="340px"width="100%" style="margin-top:50px;"></img>
+<P></P>
+<center><p style="font-size:20px">Our Products</p>
+<br>
+<br>
+<a class="view" href="pari-products.php" class="" role="button">VIEW</a></center>
+</div>
+
+<div style="float:left;width:30%; margin-left:5%; padding:10px;">
+<img  src="img/slide-banner4.jpg" height="340px" width="100%" style="margin-top:50px;"></img>
+<P></P>
+<center><p style="font-size:20px">Our Events</p>
+<br>
+<br>
+<a class="view"  class="" role="button">COMING SOON</a></center>
+</div>
+
+<div style="float:left;width:30%; margin-left:5%;padding:10px;">
+<img  src="img/pari-beneficiaries.jpg" width="100%" height="340px" style="margin-top:50px;"></img>
+<P></P>
+<center><p style="font-size:20px;">Our Beneficiaries</p>
+<br>
+<br>
+<a class="view" class="" role="button">COMING SOON</a></center>
+</div>
+
+</div>
+
+</div>
+
+
+<footer id="footer">
+<br>
+<ul style="float: left;width:100%">
+<li style="float:left;width:33.33%;padding:20px;height:320px;border-right: 1px solid #707070;">
+<h2> <img src="assets/img/logo.png" height="125px;" width="200px"></img></h2>
+<div style="margin-left:20px;margin-top:20px">
+<ul>
+<li >
+<strong><span style="color:#ffcc08;">En</span>trepreneurial</strong> - <span style="color:#8f8b89;">igniting business innovation with integrity and passion.</span>
+</li>
+<li style="margin-top:20px">
+<strong><span style="color:#ffcc08;">Act</span>ion</strong> - <span style="color:#8f8b89;">the experience of social impact that sparks social enterprise.</span>
+</li>
+<li style="margin-top:20px">
+<strong><span style="color:#ffcc08;">Us</span></Strong> - <span style="color:#8f8b89;">student, academic and business leaders collaborating to create a better world.</span>
+</li>
+</ul>
+</div>
+</li>
+<li style="float:left;width:33.33%;padding:20px; height:320px;border-right: 1px solid #707070;">
+<h1 style="line-height:100px">Get Connected</h1>
+<div>
+<ul>
+<li class="social-media">
+<img style="float:left"src="img/facebook.png" height="30px" width="30px"></img><a href = "https://www.facebook.com/enactusmpstme" style="margin-left:5px;line-height:30px;color:#fff;text-decoration:none">Facebook</a>
+</li>
+<li class="social-media" style="margin-top:10px">
+<img style="float:left"src="img/instagram.png" height="30px" width="30px"></img><a href="https://www.instagram.com/enactusmpstme/" style="margin-left:5px;line-height:30px;color:#fff;text-decoration:none">Instagram</a>
+</li>
+<li class="social-media" style="margin-top:10px">
+<img style="float:left"src="img/twitter.png" height="30px" width="30px"></img><a href="https://twitter.com/Enactus_MPSTME" style="margin-left:5px;line-height:30px;color:#fff;text-decoration:none">Twitter</a>
+</li></ul>
+</div>
+</li>
+<li style="float:left;width:33.33%;height:325px;padding:20px;">
+<h1 style="line-height:100px">Contact Us</h1>
+<div>
+<ul>
+<li>
+<img src="img/mpstme.jpg" ></img>
+</li>
+<li style="margin-top:10px">
+<strong>Enactus MPSTME</strong>
+<p style="color:#8f8b89;">MPSTME, NMIMS University 
+V.L.Mehta Road, JVPD, 
+Opp Cooper Hospital, Vile Parle West 
+Mumbai, Maharashtra 400056</p>
+<br>
+<strong>Email</strong> - <span style="color:#8f8b89;">enactus.nmims@gmail.com</span>
+<br>
+<strong>Contact</strong> - <span style="color:#8f8b89;">+919029098707</span>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+<br>
+    </footer>
+<div style="float:left;width:100%;padding:5px;background-color:#161616;color:#fff">
+<center>© Copyright 2016, All Rights Reserved by Enactus MPSTME.<br>
+Designed by Ahish Agrawal, Gourav Acharya.
+</center>
+</div>
+</body>
+
+<script>
+$(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.fadeInImage').each( function(i){
+            
+            var bottom_of_object = $(this).position().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 200;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},750);
+                    
+            }
+			
+			
+        }); 
+    
+    });
+});
+</script>
+</html>

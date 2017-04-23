@@ -1,0 +1,320 @@
+<html >
+<style>
+*{
+	-webkit-transition: all 1s ease-in-out;
+      -moz-transition: all 1s ease-in-out;
+      -ms-transition: all 1s ease-in-out;
+      -o-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; 
+}
+td{
+	border: solid 2px #000;
+	border-collapse:collapse;
+	width:16.67%;
+}
+</style>
+<body style="margin:0px;" >
+<table width="100%">
+<tr>
+<td id="td1">
+<div style="width:100%;background-color:#212121;float:left">
+<img id="td1.1" style="float:left" src="grants.png" height="100%" width="100%">
+<div id="td1.2" style="color:#fff;float:left;width:0%;" >
+<div id="td1.2.1" style = "display:none;">
+<center><h2 style="text-decoration:none;">Our Grants</h2><hr><p>1. KPMG Business Ethics Grant<br>
+2. Walmart Women's Economic Empowerment Project Partnership<br>
+3. Enactus Blue Dart Empowering Competition<br>
+4. Gudville Grant<br>
+</p></center>
+</div>
+</div>
+</div>
+</td>
+<td id="td2">
+<div style="width:100%;background-color:#212121;float:left">
+<img id="td2.1" style="float:left" src="achievement.png" height="100%" width="100%">
+<div id="td2.2" style="color:#fff;float:left;width:0%;" >
+<div id="td2.2.1" style = "display:none;">
+<center><h2 style="text-decoration:none;">Our Achievements</h2><hr><p>1. Semi Finalist Award Winners at Enactus India National Conference 2013-14 and 2014-15<br>
+2. Presenting at the Taj Colaba for Dr. Alvin Rohrs, Enactus Global CEO and members of grant commission of Tata Sons. <bR>
+3. We were featured on 'The Enactus Show' on Zee Business  <br>
+4. Tiny Toddler Production (an Enactus MPSTME initiative) produces a video on the occasion of Women's Day to celebrate women and their achievements<br>
+</p></center>
+</div>
+</div></div>
+</td>
+<td id="td3">
+<div style="width:100%;background-color:#212121;float:left">
+<img id="td3.1" style="float:left" src="impact.png" height="100%" width="100%">
+<div id="td3.2" style="color:#fff;float:left;width:0%;" >
+<div id="td3.2.1" style = "display:none;">
+<center><h2 style="text-decoration:none;">Impact 2015-2016</h2><hr><p>1. Revenue: 2.26 lakh<br>
+2. Direct Impact: 74 individuals<br>
+3. Indirect Impact: 5000 individuals<br>
+4. Carbon footprint reduced: 2336 kg<br>
+</p></center>
+</div>
+</div></div>
+</td>
+<td id="td4">
+<div style="width:100%;background-color:#212121;float:left">
+<img id="td4.1" style="float:left" src="newspaper.png" height="100%" width="100%">
+<div id="td4.2" style="color:#fff;float:left;width:0%;" >
+<div id="td4.2.1" style = "display:none;">
+<center><h2 style="text-decoration:none;">Newspaper Mentions</h2><hr><p>1. Abhiyaan Magazine<br>
+2. Hindustan Times<br>
+3. DNA India<br>
+4. Social Tahelka<br>
+5. Impactpreneurs<br>
+
+</p></center>
+</div>
+</div></div>
+</td>
+<td id="td5">
+<div style="width:100%;background-color:#212121;float:left">
+<img id="td5.1" style="float:left" src="advice.png" height="100%" width="100%">
+<div id="td5.2" style="color:#fff;float:left;width:0%;" >
+<div id="td5.2.1" style = "display:none;">
+<center><h2 style="text-decoration:none;">Advisory Board</h2><hr><table style="color:#fff;"><tr><td style="border:none;padding-left:5px;padding-right:5px;"><p>1. Shweta Chari, Founder & CEO, Toybank.<br>
+2. Raj Gilda, Founder, Lend-A-Hand India.<br>
+3. Ankesh Kothari, Serial Entrepreneur, Angel investor, Author<br>
+4. Ishan S. Gosar, Alumnus, Consultant at E&Y LLP.<br>
+5. Pawan Rai, Alumnus, Financial Analyst at Tresvista Financial Services. <br>
+</p></td>
+<td style="border:none;padding-left:5px;padding-right:5px;"><p>
+6. Mr. Vivek Dehariya, CSR lead at Capgemini Consulting<br>
+7. Mehul Dhruva, VP, Syntel<br>
+8. Dr. J. P. Gandhi, Mentor, MPSTME & Joint Secretary, SVKM<br>
+9. Gursmeep Hundal, IB Analyst at Barclays, Co-founder of Project Reach<br>
+</p>
+</td>
+</tr>
+</table></center>
+</div>
+</div></div>
+</td >
+<td id="td6">
+<div style="width:100%;background-color:#212121;float:left">
+<img id="td6.1" style="float:left" src="campaigns.png" height="100%" width="100%">
+<div id="td6.2" style="color:#fff;float:left;width:0%;" >
+<div id="td6.2.1" style = "display:none;">
+<center><h2 style="text-decoration:none;">Our Grants</h2><hr></center>
+</div>
+</div></div>
+</td>
+</tr>
+</table>
+<center><button onclick="reset()">Reset</button></center>
+</body>
+
+<script>
+var a = document.getElementById("td1");
+var b = document.getElementById("td2");
+var c = document.getElementById("td3");
+var d = document.getElementById("td4");
+var e = document.getElementById("td5");
+var f = document.getElementById("td6");
+
+function reset(){
+	a.style.width="";
+	b.style.width="";
+	c.style.width="";
+	d.style.width="";
+	e.style.width="";
+	f.style.width="";	
+	document.getElementById("td1.1").style.width = "100%";
+	document.getElementById("td1.2").style.width = "0%";
+	document.getElementById("td2.1").style.width = "100%";
+	document.getElementById("td2.2").style.width = "0%";
+	document.getElementById("td3.1").style.width = "100%";
+	document.getElementById("td3.2").style.width = "0%";
+	document.getElementById("td4.1").style.width = "100%";
+	document.getElementById("td4.2").style.width = "0%";
+	document.getElementById("td5.1").style.width = "100%";
+	document.getElementById("td5.2").style.width = "0%";
+	document.getElementById("td6.1").style.width = "100%";
+	document.getElementById("td6.2").style.width = "0%";
+	}
+a.addEventListener("click",function(){
+	a.style.width="50%";
+	b.style.width="10%";
+	c.style.width="10%";
+	d.style.width="10%";
+	e.style.width="10%";
+	f.style.width="10%";
+	
+	document.getElementById("td2.2.1").style.display = "none";
+	document.getElementById("td3.2.1").style.display = "none";
+	document.getElementById("td4.2.1").style.display = "none";
+	document.getElementById("td5.2.1").style.display = "none";
+	document.getElementById("td6.2.1").style.display = "none";
+	
+	document.getElementById("td1.1").style.width = "0%";
+	document.getElementById("td1.2").style.width = "100%";
+	setTimeout(function(){
+		document.getElementById("td1.2.1").style.display = "block";
+	},900);
+	document.getElementById("td2.1").style.width = "100%";
+	document.getElementById("td2.2").style.width = "0%";
+	document.getElementById("td3.1").style.width = "100%";
+	document.getElementById("td3.2").style.width = "0%";
+	document.getElementById("td4.1").style.width = "100%";
+	document.getElementById("td4.2").style.width = "0%";
+	document.getElementById("td5.1").style.width = "100%";
+	document.getElementById("td5.2").style.width = "0%";
+	document.getElementById("td6.1").style.width = "100%";
+	document.getElementById("td6.2").style.width = "0%";
+});
+b.addEventListener("click",function(){
+	b.style.width="50%";
+	a.style.width="10%";
+	c.style.width="10%";
+	d.style.width="10%";
+	e.style.width="10%";
+	f.style.width="10%";
+	
+	document.getElementById("td1.2.1").style.display = "none";
+	document.getElementById("td3.2.1").style.display = "none";
+	document.getElementById("td4.2.1").style.display = "none";
+	document.getElementById("td5.2.1").style.display = "none";
+	document.getElementById("td6.2.1").style.display = "none";
+	
+	document.getElementById("td2.1").style.width = "0%";
+	document.getElementById("td2.2").style.width = "100%";
+	setTimeout(function(){
+		document.getElementById("td2.2.1").style.display = "block";
+	},900);
+	document.getElementById("td1.1").style.width = "100%";
+	document.getElementById("td1.2").style.width = "0%";
+	document.getElementById("td3.1").style.width = "100%";
+	document.getElementById("td3.2").style.width = "0%";
+	document.getElementById("td4.1").style.width = "100%";
+	document.getElementById("td4.2").style.width = "0%";
+	document.getElementById("td5.1").style.width = "100%";
+	document.getElementById("td5.2").style.width = "0%";
+	document.getElementById("td6.1").style.width = "100%";
+	document.getElementById("td6.2").style.width = "0%";
+});
+c.addEventListener("click",function(){
+	c.style.width="50%";
+	b.style.width="10%";
+	a.style.width="10%";
+	d.style.width="10%";
+	e.style.width="10%";
+	f.style.width="10%";
+	
+	document.getElementById("td2.2.1").style.display = "none";
+	document.getElementById("td1.2.1").style.display = "none";
+	document.getElementById("td4.2.1").style.display = "none";
+	document.getElementById("td5.2.1").style.display = "none";
+	document.getElementById("td6.2.1").style.display = "none";
+	
+	document.getElementById("td3.1").style.width = "0%";
+	document.getElementById("td3.2").style.width = "100%";
+	setTimeout(function(){
+		document.getElementById("td3.2.1").style.display = "block";
+	},900);
+	document.getElementById("td2.1").style.width = "100%";
+	document.getElementById("td2.2").style.width = "0%";
+	document.getElementById("td1.1").style.width = "100%";
+	document.getElementById("td1.2").style.width = "0%";
+	document.getElementById("td4.1").style.width = "100%";
+	document.getElementById("td4.2").style.width = "0%";
+	document.getElementById("td5.1").style.width = "100%";
+	document.getElementById("td5.2").style.width = "0%";
+	document.getElementById("td6.1").style.width = "100%";
+	document.getElementById("td6.2").style.width = "0%";
+});
+d.addEventListener("click",function(){
+	d.style.width="50%";
+	b.style.width="10%";
+	c.style.width="10%";
+	a.style.width="10%";
+	e.style.width="10%";
+	f.style.width="10%";
+	
+	document.getElementById("td2.2.1").style.display = "none";
+	document.getElementById("td3.2.1").style.display = "none";
+	document.getElementById("td1.2.1").style.display = "none";
+	document.getElementById("td5.2.1").style.display = "none";
+	document.getElementById("td6.2.1").style.display = "none";
+	
+	document.getElementById("td4.1").style.width = "0%";
+	document.getElementById("td4.2").style.width = "100%";
+	setTimeout(function(){
+		document.getElementById("td4.2.1").style.display = "block";
+	},900);
+	document.getElementById("td2.1").style.width = "100%";
+	document.getElementById("td2.2").style.width = "0%";
+	document.getElementById("td3.1").style.width = "100%";
+	document.getElementById("td3.2").style.width = "0%";
+	document.getElementById("td1.1").style.width = "100%";
+	document.getElementById("td1.2").style.width = "0%";
+	document.getElementById("td5.1").style.width = "100%";
+	document.getElementById("td5.2").style.width = "0%";
+	document.getElementById("td6.1").style.width = "100%";
+	document.getElementById("td6.2").style.width = "0%";
+});
+e.addEventListener("click",function(){
+	e.style.width="50%";
+	b.style.width="10%";
+	c.style.width="10%";
+	d.style.width="10%";
+	a.style.width="10%";
+	f.style.width="10%";
+	
+	document.getElementById("td2.2.1").style.display = "none";
+	document.getElementById("td3.2.1").style.display = "none";
+	document.getElementById("td4.2.1").style.display = "none";
+	document.getElementById("td1.2.1").style.display = "none";
+	document.getElementById("td6.2.1").style.display = "none";
+	
+	document.getElementById("td5.1").style.width = "0%";
+	document.getElementById("td5.2").style.width = "100%";
+	setTimeout(function(){
+		document.getElementById("td5.2.1").style.display = "block";
+	},900);
+	document.getElementById("td2.1").style.width = "100%";
+	document.getElementById("td2.2").style.width = "0%";
+	document.getElementById("td3.1").style.width = "100%";
+	document.getElementById("td3.2").style.width = "0%";
+	document.getElementById("td4.1").style.width = "100%";
+	document.getElementById("td4.2").style.width = "0%";
+	document.getElementById("td1.1").style.width = "100%";
+	document.getElementById("td1.2").style.width = "0%";
+	document.getElementById("td6.1").style.width = "100%";
+	document.getElementById("td6.2").style.width = "0%";
+});
+f.addEventListener("click",function(){
+	f.style.width="50%";
+	b.style.width="10%";
+	c.style.width="10%";
+	d.style.width="10%";
+	e.style.width="10%";
+	a.style.width="10%";
+	
+	document.getElementById("td2.2.1").style.display = "none";
+	document.getElementById("td3.2.1").style.display = "none";
+	document.getElementById("td4.2.1").style.display = "none";
+	document.getElementById("td5.2.1").style.display = "none";
+	document.getElementById("td1.2.1").style.display = "none";
+	
+	document.getElementById("td6.1").style.width = "0%";
+	document.getElementById("td6.2").style.width = "100%";
+	setTimeout(function(){
+		document.getElementById("td6.2.1").style.display = "block";
+	},900);
+	document.getElementById("td2.1").style.width = "100%";
+	document.getElementById("td2.2").style.width = "0%";
+	document.getElementById("td3.1").style.width = "100%";
+	document.getElementById("td3.2").style.width = "0%";
+	document.getElementById("td4.1").style.width = "100%";
+	document.getElementById("td4.2").style.width = "0%";
+	document.getElementById("td5.1").style.width = "100%";
+	document.getElementById("td5.2").style.width = "0%";
+	document.getElementById("td1.1").style.width = "100%";
+	document.getElementById("td1.2").style.width = "0%";
+});
+</script>
+</html>

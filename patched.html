@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- title and meta -->
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<title>Project Patched</title>
+    
+	<link rel="shortcut icon" type="image/x-icon" href="img/en-icon.ico">
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<!-- js -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/classie.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 100,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+				//document.getElementById("navbar-logo").style.display="none";
+				//document.getElementById("logo").style.display="block";
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+	
+</script>
+<script type="text/JavaScript">
+/*
+var picCount=0; // global
+var picArray= ["slide-banner-01.jpg","slide-banner-03.jpg"];
+
+//
+// gets next picture in array
+function nextPic()
+{ // check if adding 1 exceeds number of pics in array
+picCount=(picCount+1<picArray.length)? picCount+1 : 0;
+// build the img to write to page using the new pic reference
+document.getElementById("banner").src="img/"+picArray[picCount];
+// repeat this after a puse of 2000ms (2sec).
+setTimeout('nextPic()',2000)
+}*/
+//-->
+</script>
+</head>
+
+
+
+<body onload="setTimeout('nextPic()',2000)">
+
+<header>
+    <div class="container clearfix">
+<!--<img id="navbar-logo"style="dl"src = "img/logo.png" height="150px" width="200px"></img>-->
+		
+		<h1  id="logo">
+            Enactus
+			<pre style="font-size:15px">
+<br>Mukesh Patel School of Technology 
+Management and Engineering</pre>
+        </h1>
+		
+        <nav>
+            <a href="index.php">Home </a>
+            <a href="index.php#about-us" >About Us</a>
+            <a href="index.php#our-projects">Projects </a>
+			<a href="products.php">Store</a>	
+			<a href="blog/">Blog</a>			
+			<!--<a href="#gallery">Gallery</a> -->
+			<a href="index.php#partners">Partners</a>
+			<a href="index.php#footer">Contact us </a>
+        </nav>
+    </div>
+</header><!-- /header -->
+
+<div class="content-main">
+<img style="-webkit-filter: blur(3px);filter: blur(3px);z-index:-1;position:fixed;" src="img/patched-banner1.png" height="600px" width="100%"></img>
+<!--<div id="patch-quote">
+<span style="font-size:25px;">&ldquo;</span>The people who have been suppressed often do not have the power to stand up for themselves, and if those who know about it continue to be quiet, then we have lost the battle of humanity before it even begins.<span style="font-size:25px;">&rdquo;</span>
+</div> -->
+<div class="section-inside" style="margin-top:150px;height:auto;background-color:rgba(255,255,255,1);">
+
+<h1>Project Patched</h1>
+<p style="margin-top:25px;font-size:20px;">Patched is an environmentally conscious social enterprise striving to make a difference in the lives of trafficked women and sex workers through our model of education, entrepreneurship and empowerment. In our first year, we created 2 entrepreneurs, educated 5 women in tailoring and organized an awareness event for 200 women. We are presently targeting the 800+ sizeable home based sex workers of the Chembur Dumping ground area. Our education ideology is to equip our women with basic training in Communication Skills, Tailoring, Beauty classes and mehendi classes. Currently we are working with the communities residing in Govandi and at Rescue Foundation in Kandivali.</p>
+<br>
+<img src="img/Patch-Team.jpg" width="100%">
+</div>
+
+<div class="section-inside" style="height:auto;background-color:rgba(255,255,255,0.1);">
+<h1>Current Scenario</h1>
+<p style="margin-top:25px;font-size:20px;">Mumbai is a city of dichotomies: a city of such vast contrasts that you would be forgiven to think there are more than one worlds in here. A city that makes the sacrifice of space worth it because it gives your dreams the space to breathe. But it is unforgiving, unyielding, and its only a matter of seconds that worlds can change. What happens when your dreams are robbed away from you? And your body is exploited to such an extent that your body and soul has to be separated just so that you can survive each day? But why do we turn a blind eye to the dark underbelly of our city?</p>
+<img src="img/trafficked.jpg" height="303px" width="25%" style="margin-top:50px;margin-left:22.5%;margin-right:5%;"></img><img src="img/child-trafficking.png" height="303px" width="25%" style="margin-top:50px;"></img>
+</div>
+
+<div class="section-inside" style="height:auto;background-color:#fff">
+<h1>Problem Statement</h1>
+<p style="margin-top:25px;font-size:20px;">Around 1-1.6 lakh girls are trafficked from Nepal every year and 45,000 of them end up in brothels in Mumbai The average age of a worker has fallen from 14-16 years to 10-12 years in the past decade. There are more human slaves in the world today than ever before in history. Some put the number as high as 27 million. Police corruption is a growth of engine of this industry. In many countries around the world, including India and Cambodia, police officers and government officials contribute to the growth of this industry. They visit brothels as customers and don't enforce anti trafficking laws. In India, one of the hotbeds of sex trade, children are sold into slavery as part of a religious tradition. Daughters are offered to temples as a gift. As young as eight or nine years old, these girls are used by priests for their sexual pleasure. When they're older, they are sold into brothels.</p>
+</div>
+
+<div class="section-inside">
+<h1>Checkout whats been going on</h1>
+<div style="float:left;width:30%; padding:10px;">
+<img  src="img/Patch-products-icon.jpg" height="340px"width="100%" style="margin-top:50px;"></img>
+<P></P>
+<center><p style="font-size:20px">Our Products</p>
+<br>
+<br>
+<a class="view" href="patch-products.php" class="" role="button">VIEW</a></center>
+</div>
+
+<div style="float:left;width:30%; margin-left:5%; padding:10px;">
+<img  src="img/patch-event.JPG" height="340px" width="100%" style="margin-top:50px;"></img>
+<P></P>
+<center><p style="font-size:20px">Our Events</p>
+<br>
+<br>
+<a class="view"  role="button">COMING SOON</a></center>
+</div>
+
+<div style="float:left;width:30%; margin-left:5%;padding:10px;">
+<img  src="img/patch-beneficiaries.jpg" width="100%" height="340px" style="margin-top:50px;"></img>
+<P></P>
+<center><p style="font-size:20px;">Our Beneficiaries</p>
+<br>
+<br>
+<a class="view" role="button">COMING SOON</a></center>
+</div>
+
+
+</div>
+
+</div>
+
+
+<footer id="footer">
+<br>
+<ul style="float: left;width:100%">
+<li style="float:left;width:33.33%;padding:20px;height:320px;border-right: 1px solid #707070;">
+<h2> <img src="assets/img/logo.png" height="125px;" width="200px"></img></h2>
+<div style="margin-left:20px;margin-top:20px">
+<ul>
+<li >
+<strong><span style="color:#ffcc08;">En</span>trepreneurial</strong> - <span style="color:#8f8b89;">igniting business innovation with integrity and passion.</span>
+</li>
+<li style="margin-top:20px">
+<strong><span style="color:#ffcc08;">Act</span>ion</strong> - <span style="color:#8f8b89;">the experience of social impact that sparks social enterprise.</span>
+</li>
+<li style="margin-top:20px">
+<strong><span style="color:#ffcc08;">Us</span></Strong> - <span style="color:#8f8b89;">student, academic and business leaders collaborating to create a better world.</span>
+</li>
+</ul>
+</div>
+</li>
+<li style="float:left;width:33.33%;padding:20px; height:320px;border-right: 1px solid #707070;">
+<h1 style="line-height:100px">Get Connected</h1>
+<div>
+<ul>
+<li class="social-media">
+<img style="float:left"src="img/facebook.png" height="30px" width="30px"></img><a href = "https://www.facebook.com/enactusmpstme" style="margin-left:5px;line-height:30px;color:#fff;text-decoration:none">Facebook</a>
+</li>
+<li class="social-media" style="margin-top:10px">
+<img style="float:left"src="img/instagram.png" height="30px" width="30px"></img><a href="https://www.instagram.com/enactusmpstme/" style="margin-left:5px;line-height:30px;color:#fff;text-decoration:none">Instagram</a>
+</li>
+<li class="social-media" style="margin-top:10px">
+<img style="float:left"src="img/twitter.png" height="30px" width="30px"></img><a href="https://twitter.com/Enactus_MPSTME" style="margin-left:5px;line-height:30px;color:#fff;text-decoration:none">Twitter</a>
+</li></ul>
+</div>
+</li>
+<li style="float:left;width:33.33%;height:325px;padding:20px;">
+<h1 style="line-height:100px">Contact Us</h1>
+<div>
+<ul>
+<li>
+<img src="img/mpstme.jpg" ></img>
+</li>
+<li style="margin-top:10px">
+<strong>Enactus MPSTME</strong>
+<p style="color:#8f8b89;">MPSTME, NMIMS University 
+V.L.Mehta Road, JVPD, 
+Opp Cooper Hospital, Vile Parle West 
+Mumbai, Maharashtra 400056</p>
+<br>
+<strong>Email</strong> - <span style="color:#8f8b89;">enactus.nmims@gmail.com</span>
+<br>
+<strong>Contact</strong> - <span style="color:#8f8b89;">+919029098707</span>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+<br>
+    </footer>
+<div style="float:left;width:100%;padding:5px;background-color:#161616;color:#fff">
+<center>© Copyright 2016, All Rights Reserved by Enactus MPSTME.<br>
+Designed by Ahish Agrawal, Gourav Acharya.
+</center>
+</div>
+</body>
+
+<script>
+$(function() {
+    $(window).scroll( function(){
+    
+       
+        $('.fadeInImage').each( function(i){
+            
+            var bottom_of_object = $(this).position().top;
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "200" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 200;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},750);
+                    
+            }
+			
+			
+        }); 
+    
+    });
+});
+</script>
+</html>
